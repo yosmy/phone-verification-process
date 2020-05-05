@@ -1,0 +1,23 @@
+{
+    "name": "yosmy/phone-verification-process",
+    "description": "",
+    "require": {
+        "php": ">=7.2",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yosmy\\Phone\\": [
+                "src"
+            ]
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://php.yosmy.com"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
